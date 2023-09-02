@@ -1,0 +1,208 @@
+ .background{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/photo_2023-09-02_05-21-33.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size:cover; 
+}
+.background ul li{
+    margin-top: 1%;
+    display: inline-block;
+    margin-left: 33px ;
+}
+.background ul{
+    display: inline-block;
+    vertical-align: top ;
+    margin-left: 650px ;
+    position: absolute;
+    top: 2%;
+    left: 35%;
+}
+.background ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.background ul li a:hover{
+    color: green;
+} 
+.background h1 {
+    font-size: 50px;
+    font-family: serif;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 14%;
+    left: 30%;
+    margin-top: 150px;
+}
+.background  .button1{
+    background-color: rgb(250, 248, 248);
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    font-size: 25px;
+    font-family: serif;
+    font-weight: bold;
+    border-radius: 50px;
+    border-color: #1C6E42;
+    color:forestgreen;
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    margin-top: 80px;
+}
+.background  .button1:hover{
+    background-color:#04320e;  
+    cursor: pointer;
+}
+.container h2 {
+    text-align: center;
+    font-size: 49px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10%;
+}
+.container {
+    width: 97.5%;
+    height: 60vh;
+    background: linear-gradient(to bottom, #3FAD57, #1C6E42);
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.container  .button2{
+    background-color: rgb(250, 248, 248);
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    font-size: 25px;
+    font-family: serif;
+    font-weight: bold;
+    border-radius: 50px;
+    border-color: #1C6E42;
+    color:forestgreen;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    margin-top: 80px;
+}
+
+.container .button2:hover{
+    background-color:#04320e;  
+    cursor: pointer;
+} 
+
+.container .choose{
+    display: inline-block;
+    align-self: center;
+    margin-left: 38%;
+    margin-top: 1%;
+}
+.team-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.team-selector label{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+.team-selector select {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.squad-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.squad-selector label{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+.squad-selector select {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.result {
+    width: 100%;
+    height: 130vh;
+    background-image: url("../images/photo_2023-09-02_05-21-33.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size:cover; 
+    
+}
+.result h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: 11%;
+    left: 44%;
+    transform: translate(-30%, -30%);
+    margin-top: 150px;
+}
+.result .res{
+    display: inline-block;
+}
+.result h2{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 40px;
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    transform: translate(-30%, -30%);
+    margin-top: 150px;
+}
+.result h3{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 40px;
+    position: absolute;
+    top: 7%;
+    left: 49%;
+    transform: translate(-30%, -30%);
+    margin-top: 150px;
+}
+.result h4{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 40px;
+    position: absolute;
+    top: 7%;
+    left: 73%;
+    transform: translate(-30%, -30%);
+    margin-top: 150px;
+}
